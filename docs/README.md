@@ -143,33 +143,33 @@ Nesse momento, vamos transformar os insights e validações obtidos em soluçõe
 [História de usuários](images/Historia-de-usuarios.jpg)
 
 
-| **EU COMO...**        | **QUERO/PRECISO ...**                     | **PARA ...**                           |
-|-----------------------|-------------------------------------------|----------------------------------------|
-| Morador de rua        | Oportunidades de acesso a documentações/  | Conseguir um emprego e resolver        |
-|                       | serviços jurídicos                        | questões legais                        |
-|-----------------------|-------------------------------------------|----------------------------------------|
-| Morador de rua        | Doações básicas, como roupas e comidas    | Me proteger do frio e não passar fome  |
-|-----------------------|-------------------------------------------|----------------------------------------|
-| Morador de rua        | Assistência médica e psicológica          | Não adoecer                            |
-|-----------------------|-------------------------------------------|----------------------------------------|
-| Morador de rua        | Abrigos com segurança                     | Conseguir dormir em locais seguros e   |
-|                       |                                           | assim manter uma saúde física e menta  |
-|-----------------------|-------------------------------------------|----------------------------------------|
-| Fundadora e diretora  | Doações, auxílio do governo e voluntários | Manter o funcionamento da ONG          |
-| e diretora de uma ONG |                                           |                                        |
-|-----------------------|-------------------------------------------|----------------------------------------|
-| Fundadora e diretora  | Mais visibilidade                         | Que novas pessoas conheçam e se sintam |
-| e diretora de uma ONG |                                           | tocadas com o nosso trabalho           |
-|-----------------------|-------------------------------------------|----------------------------------------|
-| Fundadora e diretora  | Mais voluntários                          | Que o processo de distruibuição de     |
-| e diretora de uma ONG |                                           | doações seja mais eficaz               |
-|-----------------------|-------------------------------------------|----------------------------------------|
-| Doador em potencial   | Ferramentas hábeis e competentes          | Entender e acompanhar como minhas      |
-|                       |                                           | doações estão sendo aplicadas          |
-|-----------------------|-------------------------------------------|----------------------------------------|
-| Doador em potencial   | Ferramentas hábeis e competentes          | Observar os impactos e resultados das  |
-|                       |                                           | possíveis doações                      |
-|-----------------------|-------------------------------------------|----------------------------------------|
+| **EU COMO...**          | **QUERO/PRECISO ...**                       | **PARA ...**                             |
+| ----------------------- | ------------------------------------------- | ---------------------------------------- |
+| Morador de rua          | Oportunidades de acesso a documentações/    | Conseguir um emprego e resolver          |
+|                         | serviços jurídicos                          | questões legais                          |
+| ----------------------- | ------------------------------------------- | ---------------------------------------- |
+| Morador de rua          | Doações básicas, como roupas e comidas      | Me proteger do frio e não passar fome    |
+| ----------------------- | ------------------------------------------- | ---------------------------------------- |
+| Morador de rua          | Assistência médica e psicológica            | Não adoecer                              |
+| ----------------------- | ------------------------------------------- | ---------------------------------------- |
+| Morador de rua          | Abrigos com segurança                       | Conseguir dormir em locais seguros e     |
+|                         |                                             | assim manter uma saúde física e menta    |
+| ----------------------- | ------------------------------------------- | ---------------------------------------- |
+| Fundadora e diretora    | Doações, auxílio do governo e voluntários   | Manter o funcionamento da ONG            |
+| e diretora de uma ONG   |                                             |                                          |
+| ----------------------- | ------------------------------------------- | ---------------------------------------- |
+| Fundadora e diretora    | Mais visibilidade                           | Que novas pessoas conheçam e se sintam   |
+| e diretora de uma ONG   |                                             | tocadas com o nosso trabalho             |
+| ----------------------- | ------------------------------------------- | ---------------------------------------- |
+| Fundadora e diretora    | Mais voluntários                            | Que o processo de distruibuição de       |
+| e diretora de uma ONG   |                                             | doações seja mais eficaz                 |
+| ----------------------- | ------------------------------------------- | ---------------------------------------- |
+| Doador em potencial     | Ferramentas hábeis e competentes            | Entender e acompanhar como minhas        |
+|                         |                                             | doações estão sendo aplicadas            |
+| ----------------------- | ------------------------------------------- | ---------------------------------------- |
+| Doador em potencial     | Ferramentas hábeis e competentes            | Observar os impactos e resultados das    |
+|                         |                                             | possíveis doações                        |
+| ----------------------- | ------------------------------------------- | ---------------------------------------- |
 
 
 
@@ -189,19 +189,317 @@ Nesse momento, vamos transformar os insights e validações obtidos em soluçõe
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
-### Requisitos Funcionais
+# Documento de Requisitos
 
-| ID     | Descrição do Requisito                                   | Prioridade |
-| ------ | ---------------------------------------------------------- | ---------- |
-| RF-001 | Permitir que o usuário cadastre tarefas ⚠️ EXEMPLO ⚠️ | ALTA       |
-| RF-002 | Emitir um relatório de tarefas no mês ⚠️ EXEMPLO ⚠️ | MÉDIA     |
+## RF01 - Efetuar Cadastro
 
-### Requisitos não Funcionais
+### Requisito Funcional
 
-| ID      | Descrição do Requisito                                                              | Prioridade |
-| ------- | ------------------------------------------------------------------------------------- | ---------- |
-| RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móvel ⚠️ EXEMPLO ⚠️ | MÉDIA     |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s ⚠️ EXEMPLO ⚠️          | BAIXA      |
+- **Nome:** Efetuar cadastro
+- **Código:** RF01
+- **Descrição:** O sistema deve registrar as informações do cadastro realizado no sistema.
+
+### Requisitos Não Funcionais
+
+| ID RNF | Descrição                                                                                                                                                                                                                      | Categoria   |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| 1.1    | Poderá ser feito o cadastro como ONG, Voluntário ou Doador por intermédio de uma caixa seletora.                                                                                                                               | Interface   |
+| 1.2    | Para realizar o cadastro da ONG, é necessário inserir os campos: nome, foto, objetivo, CEP, país, estado, cidade, bairro, rua, número, nome, CPF e data de nascimento da pessoa responsável, telefone, email, CNPJ, chave PIX. | Interface   |
+| 1.3    | O cadastro de Voluntários é necessário informar: nome, foto, país, estado, cidade, bairro, rua, número, CPF, data de nascimento, telefone, email.                                                                              | Interface   |
+| 1.4    | O cadastro de Doadores é necessário inserir: nome, foto, país, estado, cidade, bairro, rua, número, informar se é pessoa física ou jurídica, telefone e email.                                                                 | Interface   |
+| 1.5    | Todas as categorias de usuário devem criar uma senha.                                                                                                                                                                          | Interface   |
+| 1.6    | Todos os campos são obrigatórios.                                                                                                                                                                                              | Usabilidade |
+| 1.7    | Essa função estará disponível no Cabeçalho quando não estiver logado no sistema.                                                                                                                                               | Usabilidade |
+| 1.8    | Quando o CEP for inserido, serão preenchidos automaticamente os campos país, estado, cidade, bairro e rua.                                                                                                                     | Usabilidade |
+| 1.9    | Validação do cadastro da ONG.                                                                                                                                                                                                  | Usabilidade |
+| 2.0    | Quando o CPF e CNPJ forem preenchidos, haverá a verificação para saber se são válidos.                                                                                                                                         | Usabilidade |
+
+---
+
+## RF02 - Realizar Login
+
+### Requisito Funcional
+
+- **Nome:** Realizar login
+- **Código:** RF02
+- **Descrição:** O sistema deve efetuar o login.
+
+### Requisitos Não Funcionais
+
+| ID RNF | Descrição                                                                                                 | Categoria   |
+| ------ | --------------------------------------------------------------------------------------------------------- | ----------- |
+| 2.1    | Antes de preencher os campos do login, é necessário informar o tipo de acesso: ONG, Voluntário ou Doador. | Interface   |
+| 2.2    | Para a efetuação do login, o usuário deve inserir o email de registro e informar a senha criada.          | Interface   |
+| 2.3    | A autenticação do usuário dará por validação de e-mail e teste de Captcha.                                | Usabilidade |
+| 2.4    | Haverá a opção de preferência por manter o login salvo.                                                   | Interface   |
+| 2.5    | Haverá verificação para saber se os campos preenchidos do ID da ONG e da senha estão corretos.            | Usabilidade |
+
+---
+
+## RF03 - Atualização de Perfil
+
+### Requisito Funcional
+
+- **Nome:** Atualizar perfil
+- **Código:** RF03
+- **Descrição:** O sistema deve atualizar as informações.
+
+### Requisitos Não Funcionais
+
+| ID RNF | Descrição                                                                      | Categoria   |
+| ------ | ------------------------------------------------------------------------------ | ----------- |
+| 3.1    | Para realizar a atualização das informações.                                   | Interface   |
+| 3.2    | As informações passarão por uma fase de validação antes da publicação.         | Segurança   |
+| 3.3    | A opção de atualizar perfil estará disponível no menu do usuário após o login. | Usabilidade |
+
+---
+
+## RF04 - Recuperação de Senha
+
+### Requisito Funcional
+
+- **Nome:** Recuperar senha
+- **Código:** RF04
+- **Descrição:** O sistema deve permitir que os usuários recuperem a senha.
+
+### Requisitos Não Funcionais
+
+| ID RNF | Descrição                                                                                            | Categoria   |
+| ------ | ---------------------------------------------------------------------------------------------------- | ----------- |
+| 4.1    | Para recuperar a senha o usuário deverá inserir o EMAIL e CNPJ/CPF que foram informados no cadastro. | Interface   |
+| 4.2    | Será enviado um email com um link que redirecionará para a página de recuperação de senha.           | Usabilidade |
+| 4.3    | Na página de redefinição de senha, o usuário deverá inserir e confirmar a nova senha.                | Interface   |
+| 4.4    | A nova senha deverá atender aos critérios de segurança estabelecidos (mínimo de caracteres, etc.).   | Segurança   |
+
+---
+
+## RF05 - Realizar Logoff
+
+### Requisito Funcional
+
+- **Nome:** Realizar Logoff
+- **Código:** RF05
+- **Descrição:** Permite que o usuário saia do sistema.
+
+### Requisitos Não Funcionais
+
+| ID RNF | Descrição                                                                                                                          | Categoria   |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 5.1    | Para realizar o logoff é necessário que o usuário clique em SAIR após estar logado.                                                | Interface   |
+| 5.2    | Se o usuário não estiver logado, a opção SAIR será inexistente.                                                                    | Interface   |
+| 5.3    | Após clicar em SAIR, todo o sistema é atualizado e direcionado para a página inicial.                                              | Usabilidade |
+| 5.4    | Toda e qualquer interação com SAIR, limpa os campos necessários para efetuar o login a não ser que as preferências estejam salvas. | Segurança   |
+
+---
+
+## RF06 - Realizar Doação
+
+### Requisito Funcional
+
+- **Nome:** Realizar Doação
+- **Código:** RF06
+- **Descrição:** O sistema deve direcionar para a página de doações e realizar as transações.
+
+### Requisitos Não Funcionais
+
+| ID RNF | Descrição                                                                                               | Categoria   |
+| ------ | ------------------------------------------------------------------------------------------------------- | ----------- |
+| 6.1    | A opção REALIZAR DOAÇÃO aparecerá somente para a categoria de usuários cadastrados como doadores.       | Interface   |
+| 6.2    | Ao clicar em REALIZAR DOAÇÃO, o doador é direcionado para a página de doações.                          | Usabilidade |
+| 6.3    | O sistema deve oferecer as opções de pagamento: PIX, cartão de crédito/débito ou boleto bancário.       | Usabilidade |
+| 6.4    | Ao selecionar PIX, será exibida a chave PIX da ONG ou um QR Code para pagamento.                        | Interface   |
+| 6.5    | Para cartão, o doador deverá inserir número do cartão, validade, código de segurança e nome do titular. | Interface   |
+| 6.6    | Após a confirmação do pagamento, o sistema emitirá um comprovante de doação para o doador.              | Segurança   |
+| 6.7    | Todas as transações devem ser realizadas em ambiente seguro com criptografia de dados.                  | Segurança   |
+
+---
+
+## RF07 - Visualizar Histórico de Doações Recebidas
+
+### Requisito Funcional
+
+- **Nome:** Visualizar Histórico de Doações Recebidas
+- **Código:** RF07
+- **Descrição:** O sistema deve permitir que a ONG visualize o histórico de doações recebidas.
+
+### Requisitos Não Funcionais
+
+| ID RNF | Descrição                                                                                                              | Categoria   |
+| ------ | ---------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 7.1    | A ONG poderá visualizar uma lista com todas as doações recebidas, incluindo data, valor e doador (se não for anônimo). | Interface   |
+| 7.2    | O sistema deve permitir filtrar o histórico por período, valor ou doador.                                              | Usabilidade |
+| 7.3    | Os dados devem ser apresentados de forma clara e organizada, com opção de exportar relatórios.                         | Usabilidade |
+
+---
+
+## RF08 - Registrar Ações de Voluntariado
+
+### Requisito Funcional
+
+- **Nome:** Registrar Ações de Voluntariado
+- **Código:** RF08
+- **Descrição:** A ONG pode registrar ações de voluntariado para gerenciamento interno e convite a voluntários.
+
+### Requisitos Não Funcionais
+
+| ID RNF | Descrição                                                                                                         | Categoria   |
+| ------ | ----------------------------------------------------------------------------------------------------------------- | ----------- |
+| 8.1    | A ONG poderá criar eventos ou ações detalhando data, hora, local, atividades e número de voluntários necessários. | Interface   |
+| 8.2    | O sistema deve permitir que voluntários se inscrevam nas ações disponíveis.                                       | Usabilidade |
+| 8.3    | A ONG poderá gerenciar a lista de voluntários inscritos em cada ação.                                             | Usabilidade |
+
+---
+
+## RF09 - Controlar Estoque de Doações
+
+### Requisito Funcional
+
+- **Nome:** Controlar Estoque de Doações
+- **Código:** RF09
+- **Descrição:** O sistema deve permitir que a ONG gerencie o estoque de itens doados.
+
+### Requisitos Não Funcionais
+
+| ID RNF | Descrição                                                                                                     | Categoria   |
+| ------ | ------------------------------------------------------------------------------------------------------------- | ----------- |
+| 9.1   | A ONG poderá registrar entradas e saídas de itens doados, especificando nome do item, quantidade e categoria. | Usabilidade |
+| 9.2   | O sistema deve alertar quando o estoque de determinados itens estiver baixo.                                  | Usabilidade |
+| 9.3   | Relatórios de estoque poderão ser gerados para auxiliar na gestão de recursos.                                | Usabilidade |
+
+---
+
+## RF10 - Gerenciar Parcerias com Empresas
+
+### Requisito Funcional
+
+- **Nome:** Gerenciar Parcerias com Empresas
+- **Código:** RF10
+- **Descrição:** O sistema deve permitir que ONGs gerenciem parcerias com empresas doadoras.
+
+### Requisitos Não Funcionais
+
+| ID RNF | Descrição                                                                                            | Categoria   |
+| ------ | ---------------------------------------------------------------------------------------------------- | ----------- |
+| 10.1   | ONGs poderão cadastrar empresas parceiras com informações de contato e tipos de apoio oferecido.     | Interface   |
+| 10.2   | O sistema permitirá o acompanhamento de doações e projetos em parceria com empresas.                 | Usabilidade |
+| 10.3   | Relatórios específicos de parcerias poderão ser gerados para transparência e prestação de contas.    | Segurança   |
+| 10.4   | Empresas poderão realizar doações para ONG’s com perfil de doadores e serão diferenciados pelo CNPJ. | Usabilidade |
+| 10.5   | Ao realizar a doação, as empresas com CNPJ serão cadastradas como parceiras da ONG.                  | Usabilidade |
+
+---
+
+## RF11 - Integrar com Redes Sociais
+
+### Requisito Funcional
+
+- **Nome:** Integrar com Redes Sociais
+- **Código:** RF11
+- **Descrição:** O sistema será integrado com as Redes Sociais.
+
+### Requisitos Não Funcionais
+
+| ID RNF | Descrição                                                                                                                                                                                   | Categoria   |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 11.1   | No rodapé para inscrições às ONG’s, expostas na página de adesão à causa, será informado suas redes sociais, a exemplo de: Instagram, Página Oficial, Youtube, canal do WhatsApp, Telegram… | Interface   |
+| 11.2   | O sistema será linkado e irá redirecionar, por hiperligações, até a rede social correspondente ao clique do usuário.                                                                        | Usabilidade |
+
+---
+
+## RF12 - Avaliar Ações Voluntárias
+
+### Requisito Funcional
+
+- **Nome:** Avaliar Ações Voluntárias
+- **Código:** RF12
+- **Descrição:** O sistema deve permitir a avaliação das ações realizadas pelos voluntários.
+
+### Requisitos Não Funcionais
+
+| ID RNF | Descrição                                                                                                                                        | Categoria   |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| 12.1   | Após a conclusão de uma ação, voluntários receberão uma solicitação para avaliá-la.                                                              | Usabilidade |
+| 12.2   | As ONGs também poderão avaliar as ações dos voluntários.                                                                                         | Usabilidade |
+| 12.3   | As avaliações incluirão critérios como organização, impacto e satisfação pessoal que serão campos textuais, e uma nota geral que serão estrelas. | Interface   |
+| 12.4   | As ONGs e os voluntários poderão visualizar feedbacks para melhorar futuras ações.                                                               | Interface   |
+
+---
+
+## RF13 - Cadastrar Moradores de Rua
+
+### Requisito Funcional
+
+- **Nome:** Cadastrar Moradores de Rua
+- **Código:** RF13
+- **Descrição:** O sistema deve permitir que as ONG’s cadastrem os moradores de rua.
+
+### Requisitos Não Funcionais
+
+| ID RNF | Descrição                                                                                                                                                                                           | Categoria   |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 13.1   | Para realizar o cadastro dos moradores de rua é necessário inserir os campos: nome, foto, objetivo, CEP, país, estado, cidade, bairro, rua, nome, documento de RG, e data de nascimento do morador. | Interface   |
+| 13.2   | Não é obrigatório a inserção dos campos: nome, documento de RG e data de nascimento.                                                                                                                | Interface   |
+| 13.3   | O serviço de cadastro dos moradores será concedido somente aos administradores das ONG’s e aos respectivos voluntários.                                                                             | Usabilidade |
+| 13.4   | Haverá validação das informações constatadas dos moradores, pelo responsável da ONG.                                                                                                                | Segurança   |
+| 13.5   | Não haverá a necessidade de criação de senha para cada cadastro dos moradores, uma vez que serão veiculados diretamente à ONG’s que assumirá total responsabilidade.                                | Interface   |
+| 13.6   | Ao final de cada registro, torna-se obrigatório a Aceitação de Termos de Uso e Serviço que incluem a segurança de dados registrados dos moradores de rua, pela Lei Geral de Proteção dos Dados.     | Segurança   |
+
+---
+
+## RF14 - Acompanhar Moradores de Rua
+
+### Requisito Funcional
+
+- **Nome:** Acompanhar Moradores de Rua
+- **Código:** RF14
+- **Descrição:** Facilitar o acompanhamento de moradores de rua por serviços de assistência médica e psicológica.
+
+### Requisitos Não Funcionais
+
+| ID RNF | Descrição                                                                                                                                                                                                                                                                                              | Categoria   |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| 14.1   | O sistema permitirá registrar intervenções realizadas pela prefeitura ou outras entidades, as intervenções poderão ser psicológicas e médicas e deverão constar no registro: Dia da intervenção, horário, local, prescrição médica e medicamentos, e caso sejam solicitados exames devem ser anexados. | Interface   |
+| 14.2   | Notificações podem ser enviadas para os serviços de assistência quando uma nova necessidade for identificada.                                                                                                                                                                                          | Interface   |
+| 14.3   | O histórico de acompanhamento estará disponível para as ONGs autorizadas.                                                                                                                                                                                                                              | Usabilidade |
+
+---
+
+## RF15 - Registrar Localização de Moradores de Rua
+
+### Requisito Funcional
+
+- **Nome:** Registrar Localização de Moradores de Rua
+- **Código:** RF15
+- **Descrição:** O sistema deve registrar a localização aproximada dos moradores de rua.
+
+### Requisitos Não Funcionais
+
+| ID RNF | Descrição                                                                                                                                                                                | Categoria   |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 15.1   | Com a ajuda de uma API de mapeamento regional de Belo Horizonte, o sistema informará, por correspondência, a localização do morador de rua por meio das informações informadas pela ONG. | Interface   |
+| 15.2   | O sistema informará um raio de aproximação, do tipo margem de erro, definida como 2km, se caso houver deslocamento do morador de rua.                                                    | Interface   |
+| 15.3   | Haverá a possibilidade de um chamado a partir da localização do voluntário até onde o morador se encontra, definido como “ponto de início” e “ponto de destino”.                         | Usabilidade |
+| 15.4   | Haverá um consentimento a ser preenchido para permitir o uso da localização pelo sistema.                                                                                                | Segurança   |
+
+---
+
+## RF16 - Registrar Necessidade dos Moradores de Rua
+
+### Requisito Funcional
+
+- **Nome:** Registrar Necessidade dos Moradores de Rua
+- **Código:** RF16
+- **Descrição:** O sistema deve registrar as informações de uma ONG.
+
+### Requisitos Não Funcionais
+
+| ID RNF | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Categoria   |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 16.1   | O formulário de registro de necessidade deverá incluir os campos morador de rua, descrição detalhada da necessidade. Também deverá permitir especificar o tipo de necessidade, como alimentação, vestuário, higiene pessoal, medicamentos, abrigo, assistência médica, assistência psicológica ou outros, com a possibilidade de detalhar. A prioridade da necessidade (alta, média ou baixa) deverá ser indicada, assim como a localização atual do morador, seja por endereço ou coordenadas GPS. A data e hora do registro serão capturadas automaticamente. O formulário incluirá a opção de adicionar uma foto do morador, desde que haja consentimento, e um campo para observações adicionais. O nome do responsável pelo registro, ou seja, o usuário da ONG que está realizando o cadastro, será registrado automaticamente. | Interface   |
+| 16.2   | As necessidades cadastradas ficarão disponíveis no perfil de cada morador de rua, facilitando que as ONGs tenham facilidade ao apurar as necessidades de cada um                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Interface   |
+| 16.3   | O sistema deve permitir a atualização ou exclusão das necessidades registradas conforme necessário.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Usabilidade |
+
+---
+
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
@@ -280,13 +578,13 @@ Detalhes sobre a organização do grupo e o ferramental empregado.
 
 Relação de ferramentas empregadas pelo grupo durante o projeto.
 
-| Ambiente                    | Plataforma | Link de acesso                                     |
-| --------------------------- | ---------- | -------------------------------------------------- |
+| Ambiente                    | Plataforma | Link de acesso                              |
+| --------------------------- | ---------- | ------------------------------------------- |
 | Processo de Design Thinking | Miro       | https://miro.com/XXXXXXX ⚠️ EXEMPLO ⚠️        |
-| Repositório de código     | GitHub     | https://github.com/XXXXXXX ⚠️ EXEMPLO ⚠️      |
+| Repositório de código       | GitHub     | https://github.com/XXXXXXX ⚠️ EXEMPLO ⚠️      |
 | Hospedagem do site          | Render     | https://site.render.com/XXXXXXX ⚠️ EXEMPLO ⚠️ |
-| Protótipo Interativo       | MarvelApp  | https://marvelapp.com/XXXXXXX ⚠️ EXEMPLO ⚠️   |
-|                             |            |                                                    |
+| Protótipo Interativo        | MarvelApp  | https://marvelapp.com/XXXXXXX ⚠️ EXEMPLO ⚠️   |
+|                             |            |                                             |
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
