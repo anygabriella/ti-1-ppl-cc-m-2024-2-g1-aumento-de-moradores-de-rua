@@ -2,13 +2,16 @@
 
 Informações básicas do projeto.
 
-* **Projeto:** [NOME DO PROJETO]
-* **Repositório GitHub:** [LINK PARA O REPOSITÓRIO NO GITHUB]
-* **Membros da equipe:**
+* **Projeto:** Aumento de Moradores de Rua
+* **Repositório GitHub:** [[LINK PARA O REPOSITÓRIO NO GITHUB]](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m-2024-2-g1-aumento-de-moradores-de-rua/tree/master)
+  
+* **Membros da equipe:** 
+* [Any Gabrriela Neri de Oliveira]
+* [Eduardo Henrique Aniceto Teixeira](https://github.com/Eduard-Aniceto)
+* [Frederico Matheus Costa Duarte](https://github.com/Freduart12)
+* [Izabel Oliveira da Paz Chaves](https://github.com/rainbowcrack)
+* [Vitor Daniel Silva Melo](https://github.com/vloax)
 
-  * [Fulano](https://github.com/fulano) ⚠️ EXEMPLO ⚠️
-  * [Beltrano](https://github.com/beltrano) ⚠️ EXEMPLO ⚠️
-  * [Cicrano](https://github.com/cicrano) ⚠️ EXEMPLO ⚠️
 
 A documentação do projeto é estruturada da seguinte forma:
 
@@ -20,7 +23,7 @@ A documentação do projeto é estruturada da seguinte forma:
 6. Solução
 7. Referências Bibliográficas
 
-✅ [Documentação de Design Thinking (MIRO)](files/processo-dt.pdf)
+✅ [Documentação de Design Thinking (MIRO)](files/Aumento-de-moradores-de-rua.pdf) <-- **[MODIFICAR, ESTÁ EM BAIXA QUALIDADE]()**
 
 # Contexto
 
@@ -89,7 +92,7 @@ Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
-> Nessa etapa, vamos trabalhar com a metdologia de Design Thinking para compreender com maior profundidade o problema a ser tratado. Nesse processo, vamos elaborar:
+> Nessa etapa, vamos trabalhar com a metodologia de Design Thinking para compreender com maior profundidade o problema a ser tratado. Nesse processo, vamos elaborar:
 >
 > * **Matriz CSD**: também conhecida por Matriz de Alinhamento, é uma ferramenta utilizada no Design Thinking para organizar informações e facilitar o processo de tomada de decisão e solução de problemas;
 > * **Mapa de stakeholders**: ferramenta que nos permite compreender o grupo de pessoas e entidades que devemos estudar e conversar para entender mais sobre o problema
@@ -98,20 +101,38 @@ Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa
 
 ## Etapa de Definição
 
-### Personas
+### PERSONA 1
 
-**✳️✳️✳️ APRESENTE OS DIAGRAMAS DE PERSONAS ✳️✳️✳️**
+[Joao](images/Persona-Joao.png)
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que você deve ser enumerar e descrever precisamente e de forma personalizada todos os principais envolvidos com a solução almeja.
->
-> **Orientações**:
->
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Criar personas (Hotmart)](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
+**Nome:** João da Silva.
+**Idade:** 40 anos. 
+**Hobby:** Ler livros achados na rua.
+**Trabalho:** Desempregado.
+**Personalidade:** Agressivo com quem o trata mal ou é preconceituoso. Ele é atensioso com quem o ajuda e retribui com a sua gratidão desejando o bem para aquela pessoa.
+**Sonhos:** Constituir renda própria, ter uma moradia fixa que preze sua privacidade embora prefira as ruas, ter suas necessidades básicas atendidas.
+
+**Objetos e lugares:** João não possui objetos digitais, só tem um radinho velho e tem contato com as notícias do mundo a partir das conversas com o jornaleiro. Ele possui um cachorro caramelo da raça vira-lata e seus livros, leva seus pertences em um carrinho de compra e onde escolheu para ficar estendeu sua barraca de dormir.
+**Objetivos chave:** A pessoa necessita de assistência médica, atendimento de necessidades básicas, adquirir doações, segurança de vida, proteção contra o frio, atendimento psicológico...
+**Como devemos tratá-la:** Devemos tratar João com respeito e de forma informal.
+
+
+### PERSONA 2
+
+[Ana](images/Persona-Ana.png)
+
+**Nome:** Ana Paula Ribeiro.
+**Idade:** 38 anos.
+**Hobby:** Viajar, cozinhar e conhecer novas culturas.
+**Trabalho:** Fundadora e executiva de uma ONG.
+**Personalidade:** Ana é determinada e muito empática. Conhecida por sua habilidade em se conectar com as pessoas e se envolver em causas importantes. Ela valoriza trabalho em equipe e sempre busca soluções criativas.
+**Sonhos:** O principal sonho de Ana é conseguir expandir sua empresa, alcançar outras partes do estado e do Brasil, conquistar mais reconhecimento e ajudar cada vez mais moradores de rua.
+
+**Objetos e lugares:** Devido ao fato de Ana possuir uma ONG bem estruturada, ela já conta com objetos físicos contemporâneos, como celulares e computadores, além dos essenciais ao seu trabalho (cadernos, pranchetas e outros). Ademais vale ressaltar o uso de redes sociais, usado para conseguir mais visibilidade. No geral, ela os usa diariamente no seu ambiente de ocupação como ferramentas fundamentais para manter o desenvolvimento do seu negócio.
+**Objetivos chave:** O indivíduo carece de destaque e relevo social, ajudas financeiras
+(feitas por doações ou auxílios do governo), recursos limitados (como falta de contribuições de roupas, alimentos, medicamentos e outros), escassez de voluntários, estigmatização e preconceito, entre outros. Seu objetivo é conseguir resolver tais problemáticas para que assim atenda com mais qualidade os necessitados. Devemos tratar com dignidade e respeito, reconhecer e valorizar o trabalho, oferecer suportes, para que assim possam operar de maneira eficaz. Eles ficam felizes quando recebem apoio e prestígio.
+**Como devemos tratá-la:** Devemos tratar Ana com respeito e de forma formal. 
+
 
 # Product Design
 
@@ -119,33 +140,50 @@ Nesse momento, vamos transformar os insights e validações obtidos em soluçõe
 
 ## Histórias de Usuários
 
-Com base na análise das personas foram identificadas as seguintes histórias de usuários:
+[História de usuários](images/Historia-de-usuarios.jpg)
 
-| EU COMO...`PERSONA` | QUERO/PRECISO ...`FUNCIONALIDADE`        | PARA ...`MOTIVO/VALOR`               |
-| --------------------- | ------------------------------------------ | -------------------------------------- |
-| Usuário do sistema   | Registrar minhas tarefas ⚠️ EXEMPLO ⚠️ | Não esquecer de fazê-las             |
-| Administrador         | Alterar permissões ⚠️ EXEMPLO ⚠️      | Permitir que possam administrar contas |
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
->
-> **Orientações**:
->
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+| **EU COMO...**        | **QUERO/PRECISO ...**                     | **PARA ...**                           |
+|-----------------------|-------------------------------------------|----------------------------------------|
+| Morador de rua        | Oportunidades de acesso a documentações/  | Conseguir um emprego e resolver        |
+|                       | serviços jurídicos                        | questões legais                        |
+|-----------------------|-------------------------------------------|----------------------------------------|
+| Morador de rua        | Doações básicas, como roupas e comidas    | Me proteger do frio e não passar fome  |
+|-----------------------|-------------------------------------------|----------------------------------------|
+| Morador de rua        | Assistência médica e psicológica          | Não adoecer                            |
+|-----------------------|-------------------------------------------|----------------------------------------|
+| Morador de rua        | Abrigos com segurança                     | Conseguir dormir em locais seguros e   |
+|                       |                                           | assim manter uma saúde física e menta  |
+|-----------------------|-------------------------------------------|----------------------------------------|
+| Fundadora e diretora  | Doações, auxílio do governo e voluntários | Manter o funcionamento da ONG          |
+| e diretora de uma ONG |                                           |                                        |
+|-----------------------|-------------------------------------------|----------------------------------------|
+| Fundadora e diretora  | Mais visibilidade                         | Que novas pessoas conheçam e se sintam |
+| e diretora de uma ONG |                                           | tocadas com o nosso trabalho           |
+|-----------------------|-------------------------------------------|----------------------------------------|
+| Fundadora e diretora  | Mais voluntários                          | Que o processo de distruibuição de     |
+| e diretora de uma ONG |                                           | doações seja mais eficaz               |
+|-----------------------|-------------------------------------------|----------------------------------------|
+| Doador em potencial   | Ferramentas hábeis e competentes          | Entender e acompanhar como minhas      |
+|                       |                                           | doações estão sendo aplicadas          |
+|-----------------------|-------------------------------------------|----------------------------------------|
+| Doador em potencial   | Ferramentas hábeis e competentes          | Observar os impactos e resultados das  |
+|                       |                                           | possíveis doações                      |
+|-----------------------|-------------------------------------------|----------------------------------------|
+
+
 
 ## Proposta de Valor
 
-**✳️✳️✳️ APRESENTE O DIAGRAMA DA PROPOSTA DE VALOR PARA CADA PERSONA ✳️✳️✳️**
+##### Proposta para Persona Ana
 
-##### Proposta para Persona XPTO ⚠️ EXEMPLO ⚠️
+[Proposta de valor Ana](images/Proposta-de-valor-Ana.png)
 
-![Exemplo de proposta de valor](images/exemplo-proposta-valor.png)
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> O mapa da proposta de valor é uma ferramenta que nos ajuda a definir qual tipo de produto ou serviço melhor atende às personas definidas anteriormente.
+#### Proposta para Persona João
+
+[Proposta de valor João](images/Proposta-de-valor-Joao.png)
+
 
 ## Requisitos
 
